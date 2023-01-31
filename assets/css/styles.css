@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100;300;500&display=swap'); 
+
+/*estilos generales*/
+* {
+    text-decoration: none;
+    font-family: 'Barlow' , sans-serif;
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+ }
+
+ .navbar.navbar-expand-lg.navbar-light{
+   background-color: black;
+ }
+
+
+.list-group-item {
+   --bs-list-group-bg: transparent;
+   --bs-list-group-border-color: transparent;
+   --bs-list-group-color: white;
+}
+.fa-brands.fa-linkedin-in.fa-xl:hover,
+.fa-brands.fa-vimeo-v.fa-xl:hover,
+.fa-brands.fa-github.fa-xl:hover,
+.fa-solid.fa-user.fa-xl:hover
+ {
+   color: aqua;
+}
+
+.banner{
+   margin-top: -60%;
+}
+
+.perfil{
+   padding: 3rem;
+}
+
+.perfil h1{
+   font-size:xx-large;
+}
+
+
+ .experiencia{
+    padding: 3rem;
+ }
+
+ .educacion{
+    padding: 3rem;
+ }
+
+ .habilidades{
+    padding:3rem;
+ }
+
+ .progress-bar.progress-bar-striped.progress-bar-animated {
+   background-color: black;
+ }
+
+ .proyectos{
+    padding: 3rem;
+ }
+
+ .proyectos a{
+   text-decoration: none;
+   color: rgb(211, 56, 141);
+ }
+
+ .footer {
+   background-color: black;
+   text-align: center;
+   font-size: x-small;
+   color: white;
+ }
+
+ .footer img {
+   max-width: 15%;
+   padding: 2rem;
+ }
+ 
+ .tarjetas {
+   padding: 3rem;
+ }
